@@ -1,4 +1,4 @@
 data/
 predictions/
 src/__pycache__/
-unet_carvana.pth/
+unet_carvana.pth/unet_carvana.pth
