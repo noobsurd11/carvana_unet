@@ -3,7 +3,12 @@ training:
   batch_size: 8
   epochs: 10
 
+testing:
+  model_path: "unet_carvana.pth"
+  batch_size: 8
+  epochs: 10
+
 dataset:
-  image_size: [256, 256]  # Resize images if needed
-  augmentation: False      # Apply augmentations or not
+  image_size: [256, 256]  
+  augmentation: False      
 
