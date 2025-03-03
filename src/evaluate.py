@@ -63,3 +63,4 @@ if dice_scores:
     print(f"✅ Mean Dice Score (Accuracy): {mean_dice:.4f}")
 else:
     print("⚠ No valid predictions found. Check paths and filenames!")
+# nikhil lvda

@@ -56,7 +56,7 @@ output_dir = "predictions"
 os.makedirs(output_dir, exist_ok=True)
 
 test_image_filenames = sorted(test_images) 
-
+# nikhil lvda
 
 for i, (images, masks) in enumerate(test_loader):  
     images = images.to(DEVICE) 
